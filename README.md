@@ -33,15 +33,23 @@
 ```
 streamify-video-calls/
 ├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   └── server.js
+│   ├── src/
+│     ├── controllers/
+│     ├── lib/
+│     ├── middleware/
+│     ├── models/
+│     ├── routes/
+│     └── server.js
 ├── frontend/
-│   ├── components/
-│   ├── pages/
-│   ├── hooks/
-│   └── main.jsx
+│   ├── src/
+│     ├── components/
+│     ├── constants/
+│     ├── hooks/
+│     ├── lib/
+│     ├── pages/
+│     ├── store/
+│     ├── App.jsx
+│     └── main.jsx
 ├── .gitignore
 ├── package.json
 └── README.md
